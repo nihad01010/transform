@@ -1,0 +1,11 @@
+.box{
+    width: 130px;
+    height: 130px;
+    background-color: aquamarine;
+    transform: rotate(90deg);
+    transition: all 1s linear;
+    margin: 100px;
+}
+.box:hover{
+    transform: scale(.5);
+}

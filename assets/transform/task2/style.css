@@ -1,0 +1,23 @@
+.boxs{
+    display: flex;
+}
+.box{
+    background-color: aquamarine;
+    transition: all 1s linear;
+    margin: 100px;
+    width: 130px;
+    height: 100px;
+}
+.box:hover{
+    transform: rotate(360deg);
+}
+.box2{
+    background-color: rgb(165, 42, 46);
+    transition: all 1s linear;
+    margin: 100px;
+    width: 130px;
+    height: 100px;
+}
+.box2:hover{
+    transform: rotate(1turn);
+}

@@ -1,0 +1,20 @@
+.box{
+    background-color: red;
+    width: 130px;
+    height: 70px;
+    transition: all 1s linear;
+    transform-origin: left;
+}
+.box:hover{
+    transform: scaleX(2);
+}
+.box2{
+    background-color: blue;
+    width: 130px;
+    height: 70px;
+    transition: all 1s linear;
+    transform-origin: left;
+}
+.box2:hover{
+    transform: scaleX(2);
+}

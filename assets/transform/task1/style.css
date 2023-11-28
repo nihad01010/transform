@@ -1,0 +1,10 @@
+.box{
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    transition: all 1s linear;
+    margin: 100px;
+}
+.box:hover{
+    transform: scale(2);
+}

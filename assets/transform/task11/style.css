@@ -1,0 +1,32 @@
+.box{
+    background-color: red;
+    width: 200px;
+    height: 160px;
+    transition: all 1s linear;
+    margin: 200px;
+}
+.box:hover{
+    transform: rotate(2turn);
+}
+.box2{
+    background-color: green;
+    width: 150px;
+    height: 130px;
+    transition: all 1s linear;
+    margin: 10%;
+}
+.box2:hover{
+    transform: rotate(2turn);
+}
+.box3{
+    background-color: blue;
+    width: 100px;
+    height: 80px;
+    transition: all 1s linear;
+    position: relative;
+    margin-top: -75%;
+    margin-left: 20%;
+}
+.box3:hover{
+    transform: rotate(2turn);
+}

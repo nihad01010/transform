@@ -1,0 +1,10 @@
+.box{
+    width: 200px;
+    height: 150px;
+    background-color: antiquewhite;
+    transition: all 1s linear;
+    margin: 200px;
+}
+.box:hover{
+    transform: skewY(30deg);
+}

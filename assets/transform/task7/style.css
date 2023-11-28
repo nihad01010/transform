@@ -1,0 +1,10 @@
+.box{
+    width: 200px;
+    height: 150px;
+    transition: all 1s linear;
+    margin: 200px;
+    background-color: antiquewhite;
+}
+.box:hover{
+    transform: rotate(45deg);
+}
